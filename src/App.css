@@ -1,0 +1,15 @@
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+    width: fit-content;
+    border-radius: 5px;
+    background: rgb(103, 103, 161);
+    margin-left: 48%;
+    color: beige;
+}
