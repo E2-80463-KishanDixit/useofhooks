@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/useofhooks/static/css/main.76674387.css",
+    "main.js": "/useofhooks/static/js/main.f0f0876c.js",
+    "index.html": "/useofhooks/index.html",
+    "main.76674387.css.map": "/useofhooks/static/css/main.76674387.css.map",
+    "main.f0f0876c.js.map": "/useofhooks/static/js/main.f0f0876c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76674387.css",
+    "static/js/main.f0f0876c.js"
+  ]
+}
