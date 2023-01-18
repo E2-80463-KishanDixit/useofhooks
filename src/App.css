@@ -13,3 +13,11 @@ button{
     margin-left: 48%;
     color: beige;
 }
+
+.digital-react-clock{
+    display: block;
+    margin: 3rem;
+    font-size: 30px;
+    background-color: blue;
+    text-align: center;
+}

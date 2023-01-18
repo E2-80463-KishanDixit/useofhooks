@@ -1,11 +1,13 @@
 import React,{useState} from 'react';
-import '../src/App.css'
+import './App.css'
+import Clock from 'react-digital-clock'; 
+
 function App() {
 
-  const state = useState();   // This is hook
+  // const state = useState();   // This is hook
   // console.log(state);
 
-  const [count, setCount] = useState(0);
+  let [count, setCount] = useState(0);
 
   // const name =['kis', 'han', 'dixit']
 
@@ -22,6 +24,9 @@ const IncNum =()=> {
     <div className='comp'>
       <h1>{count}</h1>
       <button onClick={IncNum}>Click Me</button>
+    </div>
+    <div className="digital-react-clock">
+      <Clock/>
     </div>
     </>
   );
