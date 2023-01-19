@@ -19,6 +19,10 @@ const IncNum =()=> {
   console.log("I am clicked" + count++);
 }
 
+const date = new Date().getDate();
+const month = new Date().getMonth();
+const year = new Date().getFullYear();
+
   return (
     <>
     <div className='comp'>
@@ -26,7 +30,8 @@ const IncNum =()=> {
       <button onClick={IncNum}>Click Me</button>
     </div>
     <div className="digital-react-clock">
-      <Clock/>
+      <Clock />
+      <p>Date:{date}/ {month+1}/ {year}</p>
     </div>
     </>
   );
