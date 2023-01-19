@@ -31,7 +31,7 @@ const year = new Date().getFullYear();
     </div>
     <div className="digital-react-clock">
       <Clock />
-      <p>Date:{date}/ {month+1}/ {year}</p>
+      <p className='date'>Date:{date}/ {month+1}/ {year}</p>
     </div>
     </>
   );
